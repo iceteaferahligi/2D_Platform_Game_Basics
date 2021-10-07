@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0770EF86-4DE7-AF04-EED7-867E1AD53782}</ProjectGuid>
+    <ProjectGuid>{B7674220-F04F-3BBF-E06E-115B0844FC33}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,18 +53,18 @@
     <UnityVersion>2020.3.18f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\NextLevelScript.cs" />
     <Compile Include="Assets\Scripts\CoinScript.cs" />
     <Compile Include="Assets\Scripts\Character2DController.cs" />
+    <Compile Include="Assets\Scripts\LifeCounter.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\ChestScript.cs" />
     <Compile Include="Assets\Scripts\Parallax.cs" />
     <Compile Include="Assets\Scripts\SpawnScript.cs" />
     <Compile Include="Assets\Scripts\ScoreGenerator.cs" />
-    <Compile Include="Assets\Scripts\LifeCounter.cs" />
-    <Compile Include="Assets\Scripts\ChestScript.cs" />
-    <Compile Include="Assets\Scripts\NextLevelScript.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Tiny Fantasy Icons\README.txt" />
+    <None Include="Assets\Knight Files\Read Me.txt" />
     <None Include="Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
   </ItemGroup>
   <ItemGroup>
